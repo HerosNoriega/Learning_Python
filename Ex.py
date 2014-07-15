@@ -12,5 +12,6 @@ Comida =int(raw_input())
 print "Gastos Varios",
 Gastos_varios =int(raw_input())
 
-print "Tus Gastos Mensuales son %d + %d + %d + %d" (
-	Colegiatura, Luz, Comida, Gastos_varios)
+gastos_mensuales = Colegiatura + Luz + Comida + Gastos_varios
+
+print "Tus Gastos Mensuales son %d" % (gastos_mensuales)
